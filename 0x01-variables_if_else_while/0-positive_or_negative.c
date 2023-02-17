@@ -4,7 +4,7 @@
 /**
  * main - Checks if a number is positive or negative
  *
- * Return: Always 0  
+ * Return: Always 0
  */
 int main(void)
 {
@@ -15,9 +15,9 @@ int main(void)
 	/* your code goes there */
 	if (n == 0)
 	{
-		printf("%d id zero\n", n);
+		printf("%d is zero\n", n);
 	}
-	else if (n>0)
+	else if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
@@ -25,6 +25,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	
 	return (0);
 }
