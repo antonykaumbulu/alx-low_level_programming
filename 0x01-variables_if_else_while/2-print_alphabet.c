@@ -7,8 +7,9 @@
 int main(void)
 {
 	int letter;
+	char i[52] = "abcdefghijklmnopqrstuvwxyz"
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (letter = 0; letter <= 26; letter++)
 	{
 		putchar(letter);
 	}
