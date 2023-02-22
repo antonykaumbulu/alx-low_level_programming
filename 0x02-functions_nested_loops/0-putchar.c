@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char str[] = {_, p, u, t, c, h, a, r};
+	char str[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int count, sz;
 
 	sz = sizeof(str) / sizeof(char);
