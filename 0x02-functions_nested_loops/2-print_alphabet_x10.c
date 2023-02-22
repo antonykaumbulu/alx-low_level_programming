@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet - Prints the alphabet in lowercase.
+ * print_alphabet_x10 - Prints the alphabet in lowercase.
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; i <= 9; i++)
+	for (j = 0; j <= 9; j++)
 	{
 		for (i = 97; i <= 122; i++)
 		{
