@@ -1,0 +1,1 @@
+Pointerd arrays and Strings.
